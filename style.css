@@ -9,13 +9,15 @@ body {
   color: #fff;
 }
 
-.profile-img {
+.profile-placeholder {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  object-fit: cover;
+  background: linear-gradient(145deg, #1f1f1f, #292929);
   border: 3px solid #ffc107;
+  box-shadow: inset 0 0 10px rgba(255, 193, 7, 0.4);
 }
+
 
 .social {
   color: #ffc107;
