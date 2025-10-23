@@ -5,11 +5,41 @@ body {
 
 /* Header Section */
 
+/* Modern Hero Section */
 .hero {
-  background: linear-gradient(135deg, #007bff 0%, #6610f2 100%);
-  color: white;
-  padding: 100px 20px;
+  position: relative;
+  background: linear-gradient(135deg, #007bff, #6610f2);
+  color: #fff;
+  padding: 120px 0;
+  overflow: hidden;
 }
+
+.hero::before,
+.hero::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.5;
+}
+
+.hero::before {
+  width: 300px;
+  height: 300px;
+  top: -60px;
+  left: -100px;
+  background: #00d4ff;
+}
+
+.hero::after {
+  width: 400px;
+  height: 400px;
+  bottom: -120px;
+  right: -120px;
+  background: #a64afc;
+}
+
+/* Profile Image */
 .profile-img-lg {
   width: 200px;
   height: 200px;
@@ -20,15 +50,24 @@ body {
 .profile-img-lg:hover {
   transform: scale(1.05);
 }
+
+/* Social Links */
 .social-links a {
   color: #fff;
-  margin: 0 12px;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  margin: 0 10px;
   transition: color 0.3s;
 }
 .social-links a:hover {
   color: #ffd700;
 }
+
+/* Buttons */
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #6610f2;
+}
+
 
 
 /* Skill Box */
