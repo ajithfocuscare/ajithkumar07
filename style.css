@@ -131,3 +131,40 @@ body {
   position: relative;
 }
 
+
+.timeline {
+  position: relative;
+  margin-left: 20px;
+  border-left: 2px solid #dee2e6;
+  padding-left: 20px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -10px;
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  background-color: #0d6efd;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 0 2px #0d6efd;
+}
+
+.timeline-content {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+}
+
+.timeline-content:hover {
+  background: #e9ecef;
+  transform: translateY(-2px);
+}
+
