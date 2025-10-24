@@ -142,5 +142,8 @@ body {
 .info-icon:hover {
   color: #0056b3;
 }
+.project-description{
+  font-size:14px !important;
+}
 
 
