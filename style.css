@@ -105,6 +105,27 @@ body {
   transform: scale(1.1);
 }
 
+.workplaces {
+  justify-content: start;
+  align-items: center;
+}
+
+.company {
+  width: 120px;
+}
+
+.company-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.company-logo:hover {
+  transform: scale(1.1);
+}
+
+
 /* Optional Tooltip using Bootstrap’s built-in tooltips */
 .skill[title] {
   position: relative;
