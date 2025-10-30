@@ -3,7 +3,9 @@ body {
   color: #fff;
   font-family: "Poppins", sans-serif;
 }
-
+.text-secondary{
+  color: var(--light-gray);
+}
 .sidebar {
   background: #1b1b1b;
   color: #fff;
